@@ -1,0 +1,136 @@
+@media only screen and (max-width:991px) {
+	div.logo img {
+		width: 300px;
+	}
+	div.logo {
+		margin-left: -150px;
+	}
+	p.slogan {
+	    line-height: 1.6;
+    	font-size: 14px;
+	}
+	div.menu {
+		width: 100%;
+    	display: none;
+    	z-index: 5;
+	}
+	div.content {
+	    width: 100%;
+    	margin-left: 0;
+	}
+	.tab-pane h1 {
+		font-size: 18px;
+		text-align: center;
+	}
+	div.content {
+		font-size: 14px;
+	}
+	#services h2 {
+		font-size: 18px;
+	    display: flex;
+	    flex-direction: column;
+	    margin: 0 auto;
+	    text-align: center;
+	}
+	#services h2 svg {
+		margin:  auto;
+	}
+	.portfolio-item div {
+	    border: 1px solid #333;
+    	margin-bottom: 30px;
+	}
+	.portfolio-item h4 {
+    	font-size: 10px;
+    }
+    .post-item {
+    	text-align: center;
+    	border: 1px solid #333;
+    	margin-bottom: 30px;
+    }
+    .post-item p {
+    	font-size: 12px;
+    }
+    div.menu a {
+    	font-size: 20px;
+    }
+    #openMenu {
+    	position: fixed;
+		bottom: 0px;
+		left: 0px;
+		z-index: 2;
+		width: 70px;
+		height: 60px;
+		top: 0px;
+		background: var(--secondary-color);
+		text-align: center;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		text-decoration: none !important;
+		font-size: 40px;
+		padding-left: 0px;
+		padding-bottom: 30px;
+		-webkit-transition: all 0.2s ease-in;
+		-moz-transition: all 0.2s ease-in;
+		-o-transition: all 0.2s ease-in;
+		transition: all 0.2s ease-in;
+		border-radius: 0px 0px 50% 0px;
+		color: #000;
+    }
+    #closeMenu {
+    	position: fixed;
+		bottom: 0px;
+		right: 0px;
+		z-index: 2;
+		width: 70px;
+		height: 60px;
+		top: 0px;
+		background: var(--third-color);
+		text-align: center;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		text-decoration: none !important;
+		font-size: 40px;
+		padding-left: 10px;
+		padding-bottom: 30px;
+		-webkit-transition: all 0.2s ease-in;
+		-moz-transition: all 0.2s ease-in;
+		-o-transition: all 0.2s ease-in;
+		transition: all 0.2s ease-in;
+		border-radius: 0px 0px 0px 50%;
+		color: #fff;
+    }
+    .menu {
+    	z-index: 4;
+    	width: 100%;
+    }
+    .backToTopX {
+    	bottom: 0px;
+    top: initial;
+    border-radius: 25px 0px 0px 0px;
+    padding: 5px;
+    width: 80px;
+    padding-top: 15px;
+    }
+    .backToTopX .hideOnHover {
+    	width: 40px;
+    	height: auto;
+    	display: block !important;
+    }
+    .backToTopX .showOnHover {
+    	display: none !important;
+    }
+
+    .backToTopX:hover .hideOnHover {
+	  display: block;
+	}
+
+	.backToTopX:hover .showOnHover {
+	  display: none;
+	}
+	.backToTopX:hover {
+		width: 80px !important;
+	}
+
+}
