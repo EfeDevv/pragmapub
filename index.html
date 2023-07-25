@@ -56,9 +56,20 @@
     <div class="backToTopX customFont">
         <!-- <a href="javascript:void(0)" id="backToTop">></a> -->
         <a href="javascript:void(0)" id="backToTopX">
-            <img src="/agency/uploads/site/P.png" height="35" alt="">
+            <img src="/agency/uploads/site/telegram.png" height="35" alt="">
          
         </a>
+		<script>
+			// Resme tıklanınca çalışacak olan fonksiyon
+			function redirectToTelegram() {
+				var telegramUsername = "efeeth"; // Telegram kullanıcı adınızı buraya yazın
+				window.location.href = "https://t.me/" + telegramUsername;
+			}
+	
+			// Resmin etrafına bir düğme ekleyerek tıklama olayını dinleme
+			var imgElement = document.getElementById("backToTopX");
+			imgElement.addEventListener("click", redirectToTelegram);
+		</script>
     </div>
     <div class="menu customFont">
         <a class="visible-xs" href="javascript:void()" onclick="toggleMenu()" id="closeMenu">&times;</a>
